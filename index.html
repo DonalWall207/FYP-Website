@@ -102,33 +102,43 @@
             gap: 20px;
         }
         .fancy-links {
-        list-style: none;
-        padding: 0;
-        text-align: center;
-    }
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 15px; 
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    max-width: 600px; 
+    margin: auto;
+}
 
-    .fancy-links li {
-        margin: 10px 0;
-    }
+.fancy-links li {
+    margin: 0;
+}
 
-    .fancy-links a {
-        background: linear-gradient(135deg, #1abc9c, #3498db);
-        color: white;
-        text-decoration: none;
-        padding: 12px 20px;
-        font-size: 1.2em;
-        font-weight: bold;
-        border-radius: 8px;
-        display: inline-block;
-        transition: all 0.3s ease-in-out;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    }
+.fancy-links a {
+    background: linear-gradient(135deg, #1abc9c, #3498db);
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    font-size: 1.1em;
+    font-weight: bold;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    min-height: 50px; /* Ensures uniform button height */
+}
 
-    .fancy-links a:hover {
-        background: linear-gradient(135deg, #3498db, #1abc9c);
-        transform: scale(1.05);
-        box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
-    }
+.fancy-links a:hover {
+    background: linear-gradient(135deg, #3498db, #1abc9c);
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
     </style>
 </head>
 
@@ -226,7 +236,7 @@
                 <li><a href="http://127.0.0.1:8000/en-GB/app/launcher/home" target="_blank">Splunk Enterprise</a></li>
                 <li><a href="https://otx.alienvault.com/" target="_blank">AlienVault OTX</a></li>
                 <li><a href="https://abuse.ch/" target="_blank">Abuse.ch Threat Intel</a></li>
-                <li><a href="" target="_blank">Source Code for Ingestion Scripts</a></li>
+                <li style="grid-column: span 2;"><a href="" target="_blank">Source Code for Ingestion Scripts</a></li>
             </ul>
         </section>
     </main>
