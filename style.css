@@ -98,6 +98,11 @@ footer p {
     gap: 20px;
 }
 
+.about-container img {
+    display: block;
+    margin-bottom: 15px; /* Add spacing between image and text */
+}
+
 .fancy-links {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
