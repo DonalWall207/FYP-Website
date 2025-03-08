@@ -5,9 +5,8 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    color: #ffffff;
-    background: url('https://source.unsplash.com/1600x900/?cybersecurity,hacker,code') no-repeat center center fixed;
-    background-size: cover;
+    color: #333;
+    background-color: #f4f4f9;
 }
 
 header {
