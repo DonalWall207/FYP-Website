@@ -5,8 +5,8 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    color: #333;
-    background-color: #f4f4f9;
+    color: #ffffff;
+    background: linear-gradient(135deg, #2c3e50, #34495e);
 }
 
 header {
