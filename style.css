@@ -22,7 +22,7 @@ header h1 {
 }
 
 nav {
-    background: #3498db;
+    background: linear-gradient(135deg, #1abc9c, #3498db);
     padding: 10px;
     text-align: center;
     position: sticky;
@@ -41,7 +41,7 @@ nav a {
 }
 
 nav a:hover {
-    background: #1abc9c;
+    background: linear-gradient(135deg, #3498db, #1abc9c);
     border-radius: 5px;
 }
 
