@@ -10,7 +10,7 @@ body {
 }
 
 header {
-    background: #2c3e50;
+    background: #67cadd;
     color: white;
     padding: 20px 10px;
     text-align: center;
@@ -22,7 +22,7 @@ header h1 {
 }
 
 nav {
-    background: #34495e;
+    background: #67cadd;
     padding: 10px;
     text-align: center;
     position: sticky;
@@ -60,10 +60,10 @@ section {
 }
 
 section h2 {
-    border-bottom: 2px solid #2c3e50;
+    border-bottom: 2px solid #67cadd;
     margin-bottom: 10px;
     padding-bottom: 5px;
-    color: #2c3e50;
+    color: #67cadd;
     text-align: center;
 }
 
@@ -78,7 +78,7 @@ ul li {
 footer {
     text-align: center;
     padding: 10px 0;
-    background: #2c3e50;
+    background: #67cadd;
     color: white;
     position: fixed;
     bottom: 0;
