@@ -6,11 +6,11 @@ body {
     margin: 0;
     padding: 0;
     color: #333;
-    background-color: #f4f4f9;
+    background-color: #3498db;
 }
-
+/* #f4f4f9*/
 header {
-    background: #67cadd;
+    background: #3498db;
     color: white;
     padding: 20px 10px;
     text-align: center;
@@ -22,7 +22,7 @@ header h1 {
 }
 
 nav {
-    background: #67cadd;
+    background: #3498db;
     padding: 10px;
     text-align: center;
     position: sticky;
@@ -60,10 +60,10 @@ section {
 }
 
 section h2 {
-    border-bottom: 2px solid #67cadd;
+    border-bottom: 2px solid #3498db;
     margin-bottom: 10px;
     padding-bottom: 5px;
-    color: #67cadd;
+    color: #3498db;
     text-align: center;
 }
 
@@ -78,7 +78,7 @@ ul li {
 footer {
     text-align: center;
     padding: 10px 0;
-    background: #67cadd;
+    background: #3498db;
     color: white;
     position: fixed;
     bottom: 0;
