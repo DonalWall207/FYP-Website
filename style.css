@@ -179,25 +179,47 @@ footer p {
 }
 
 .btn-linkedin {
-    background-color: #0077B5;
+    background: linear-gradient(135deg, #1abc9c, #3498db);
     color: white;
-    border: 2px solid #0077B5;
+    text-decoration: none;
+    padding: 12px 20px;
+    font-size: 1.1em;
+    font-weight: bold;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    min-height: 50px;
 }
 
 .btn-linkedin:hover {
-    background-color: white;
-    color: #0077B5;
-    transform: scale(1.1);
+    background: linear-gradient(135deg, #3498db, #1abc9c);
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
 }
 
 .btn-github {
-    background-color: #333;
+    background: linear-gradient(135deg, #1abc9c, #3498db);
     color: white;
-    border: 2px solid #333;
+    text-decoration: none;
+    padding: 12px 20px;
+    font-size: 1.1em;
+    font-weight: bold;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    min-height: 50px;
 }
 
 .btn-github:hover {
-    background-color: white;
-    color: #333;
-    transform: scale(1.1);
+    background: linear-gradient(135deg, #3498db, #1abc9c);
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
 }
