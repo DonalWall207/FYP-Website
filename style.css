@@ -169,39 +169,35 @@ footer p {
     margin-top: 20px;
 }
 
-.btn-social {
+.social-links a {
     display: inline-block;
-    padding: 12px 20px;
-    font-size: 1.1em;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 16px;
     font-weight: bold;
     text-decoration: none;
-    border-radius: 8px;
-    text-align: center;
-    transition: all 0.3s ease-in-out;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    min-width: 140px;
 }
 
 .btn-linkedin {
-    background: linear-gradient(135deg, #0077B5, #005582);
+    background-color: #0077B5;
     color: white;
-}
-
-.btn-github {
-    background: linear-gradient(135deg, #333, #1a1a1a);
-    color: white;
-}
-
-.btn-social:hover {
-    transform: scale(1.05);
-    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+    border: 2px solid #0077B5;
 }
 
 .btn-linkedin:hover {
-    background: linear-gradient(135deg, #005582, #0077B5);
+    background-color: white;
+    color: #0077B5;
+    transform: scale(1.1);
+}
+
+.btn-github {
+    background-color: #333;
+    color: white;
+    border: 2px solid #333;
 }
 
 .btn-github:hover {
-    background: linear-gradient(135deg, #1a1a1a, #333);
+    background-color: white;
+    color: #333;
+    transform: scale(1.1);
 }
-
